@@ -1,0 +1,22 @@
+<div class="task-details">
+    <div class="priority-section">
+        <label>Priority:</label>
+        <select class="priority-select" data-task-id="${taskId}">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+    </div>
+    
+    <div class="category-section">
+        <label>Category:</label>
+        <select id="task-category">
+            <!-- Categories loaded dynamically -->
+        </select>
+    </div>
+    
+    <div class="deadline-section">
+        <label>Deadline:</label>
+        <input type="date" id="task-deadline" value="${deadline}">
+    </div>
+</div>

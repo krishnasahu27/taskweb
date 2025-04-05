@@ -1,0 +1,210 @@
+Session: Array
+(
+    [user_id] => 1
+    [email] => admin@example.com
+    [role] => admin
+)
+
+POST: Array
+(
+    [title] => Plumbing
+    [description] => Do a simple sewage system.
+    [schedule] => 2 weeks
+    [assigned_to] => 3
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [task_name] => Plumbing
+    [task_description] => Do a simple sewage system.
+    [assigned_to] => 3
+    [deadline] => 2025-03-31
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [email] => admin@example.com
+    [role] => admin
+)
+
+POST: Array
+(
+    [title] => Plumbing
+    [description] => Do a water sewage.
+    [schedule] => Week 1
+    [assigned_to] => 3
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [email] => manager@example.com
+    [role] => manager
+)
+
+POST: Array
+(
+    [title] => Construct
+    [description] => Construct a wall of wood
+    [schedule] => Day 1 to Day 4
+    [assigned_to] => 3
+)
+

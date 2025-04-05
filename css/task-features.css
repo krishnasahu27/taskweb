@@ -1,0 +1,327 @@
+/* Comments Section Styles */
+.comments-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.comments-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.comment {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Priority Badge Styles */
+.priority-badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.priority-badge.high {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.priority-badge.medium {
+    background: #fff3e0;
+    color: #ef6c00;
+}
+
+.priority-badge.low {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+/* Task History Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close {
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.history-entry {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.history-date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.status-change {
+    margin: 5px 0;
+    color: #2196f3;
+}
+
+/* Task Details Styles */
+.task-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.task-details select,
+.task-details input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Status Styles */
+.status-pending {
+    color: #f57c00;
+}
+
+.status-completed {
+    color: #43a047;
+}
+
+.status-flagged {
+    color: #d32f2f;
+}
+
+/* Category Section */
+.category-section {
+    margin-bottom: 15px;
+}
+
+.category-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Task Details Card */
+.task-details-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.task-info {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.task-description {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.task-metadata {
+    margin: 15px 0;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* Enhanced Comment Styles */
+.comment-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    resize: vertical;
+    min-height: 80px;
+    font-family: inherit;
+}
+
+.comment {
+    transition: transform 0.2s;
+}
+
+.comment:hover {
+    transform: translateX(5px);
+}
+
+/* Status Badge Styles */
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.status-badge.pending {
+    background: #fff3e0;
+    color: #ef6c00;
+}
+
+.status-badge.completed {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-badge.flagged {
+    background: #ffebee;
+    color: #c62828;
+}
+
+/* Category Badge */
+.category-badge {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+/* Task Progress Updates Styles */
+.task-progress-section {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.task-progress-section h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.progress-updates-list {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 1.5rem;
+}
+
+.progress-update-item {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.progress-update-item:last-child {
+    margin-bottom: 0;
+}
+
+.progress-text {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    color: #2c3e50;
+}
+
+.progress-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.add-progress-update {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.add-progress-update h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.progress-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.progress-form textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.progress-form button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.progress-form button:hover {
+    background-color: #357abd;
+}
